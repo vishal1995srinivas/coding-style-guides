@@ -48,3 +48,19 @@ else
 - Nested ternaries are great but make sure they provide good readability.
 
 ## Naming Convention
+
+- Naming of variables should be of same context.
+
+```jsx
+//bad
+let a = 5;
+// good
+let ItemNo = 5;
+```
+
+## Redux
+
+- Container folder should contain components which are directly interacting with store.
+- Components folder should contain components which would not interact directly with the store.
+
+## React
