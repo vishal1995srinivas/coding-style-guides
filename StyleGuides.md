@@ -64,3 +64,27 @@ let ItemNo = 5;
 - Components folder should contain components which would not interact directly with the store.
 
 ## React
+
+### https://github.com/airbnb/javascript/tree/master/react
+
+- Preferably, use create-react-app , but if you don't, provide a valid reason. Eg. SSR.
+- Use cdm for making API calls or use useEffect hook
+
+```jsx
+...
+componentDidMount()
+{
+    // make API calls here.
+}
+...
+OR
+...
+useEffect(() => {
+    //API calls here
+  });
+```
+
+- Follow Single Responsibility Principle.
+- Prop drilling is okay for components of 3 levels deep. If it exceeds, use React context API or use Redux.
+- Do not mutate the state directly. Use this.setState().
+- Donot assign props to state directly unless and until
