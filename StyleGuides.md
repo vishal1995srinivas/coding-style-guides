@@ -88,3 +88,14 @@ useEffect(() => {
 - Prop drilling is okay for components of 3 levels deep. If it exceeds, use React context API or use Redux.
 - Do not mutate the state directly. Use this.setState().
 - Donot assign props to state directly unless and until
+
+## GIT
+
+- Commit for every feature.
+- Push at EOD.
+- Let commit messages be brief and and does not exceed > 10 words.
+
+## We can also follow
+
+- Standard - https://standardjs.com/
+  which has got more number of stars in GitHub and used by many big players.
