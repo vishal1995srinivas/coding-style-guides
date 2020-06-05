@@ -20,3 +20,31 @@ npm install --save-dev eslint@4.19.1 \
 - Installing above packages will ensure most of the css style guides.
 - All css files should be inside their respective folders with components or have component names as their filenames inside styles folder.
 <!-- //CSS files inside the respected folder. or styles folder.-->
+
+## Loops
+
+```jsx
+// if using this
+if (a == true) result;
+// use this
+{
+  a && result;
+}
+```
+
+```jsx
+// if using this
+if(a == true)
+    ...
+else
+    ...
+// use this
+{a ? ... : ...}
+// (conditional)
+//   ? truthyClause
+//   : falsyClause
+```
+
+- Nested ternaries are great but make sure they provide good readability.
+
+## Naming Convention
